@@ -21,7 +21,6 @@ const Home: NextPage = () => {
   const [enddate, setValueEndDate] = useState('');
   const [ytd, setValueYtd] = useState('');
   const [grossincome, setValueGrossIncome] = useState('');
-  const [annual, setAnnualValue] = useState(0);
   const [totaldays, setTotalDays] = useState(0);
   const [profit, setAnnualProfit] = useState(0);
 
@@ -73,7 +72,6 @@ const Home: NextPage = () => {
 
         <h2>YTD return is {profit} %</h2>
         <h2>Total Days : {totaldays} </h2>
-        {/* <h2>Annual Payslip YTD figure : $ {annual}</h2> */}
 
       </Box>
     </Container>
